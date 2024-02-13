@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cards{
+    @apply bg-white rounded-lg overflow-hidden shadow-lg relative;
+}
+
+.badge{
+    @apply bg-gray-100 bg-opacity-60 backdrop-blur-sm text-gray-600 font-semibold text-sm uppercase rounded-full px-2 p-1 m-2 absolute top-0;
+}
+
+.buttons{
+    @apply  lg:border-2 md:border-2 rounded-full border-red-500 py-2 px-3 uppercase text-xs font-semibold cursor-pointer tracking-wider hover:bg-red-500 hover:text-white ;
+}
+
+.style1 {
+    @apply hover:scale-125 hover: duration-150;
+}
